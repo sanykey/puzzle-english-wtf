@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Puzzle English - Words Training Fix",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://puzzle-english.com/words"
+      ],
+      "js": ["app.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

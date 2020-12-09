@@ -1,0 +1,29 @@
+.repetition-of-words__top-info-item_style_red .repetition-of-words__top-info-item-words {
+    display: none;
+}
+.repetition-of-words__top-info-item_style_red .repetition-of-words__top-info-item-text {
+    margin-top: 15px;
+}
+
+.variants.repetition__test__answers.noselect {
+    visibility: hidden;
+}
+
+.pe-wtf-show-answers-btn {
+    background-color: #66bf66;
+    padding: 0 14px;
+    margin-top: 6px;
+    height: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+.pe-wtf-cancel-answers-btn {
+    background-color: #d26852;
+    color: white;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.25;
+    padding: 15px 32px 12px;
+    height: 48px;
+}
