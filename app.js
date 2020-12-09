@@ -25,7 +25,9 @@
     if (continueBtnElem && !continueBtnElem.withFix) {
       continueBtnElem.withFix = true;
       continueBtnElem.addEventListener('click', () => {
+        const showButton = document.querySelector('.pe-wtf-show-answers-btn');
         aswersElem.style.visibility = 'hidden';
+        showButton.style.visibility = 'visible';
       });
 
       if (!document.querySelector('#repetition-input')) {
